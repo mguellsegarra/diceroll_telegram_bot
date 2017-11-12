@@ -1,6 +1,8 @@
-# Diceroll Telegram Bot
+# 🎲 Diceroll Telegram Bot
 
 An easy implementation of a Telegram bot for rolling the dice. Thanks to [@yagop](https://github.com/yagop) for his fantastic [node-telegram-bot-api](https://github.com/yagop/node-telegram-bot-api) library. Also thanks to [@takkytsubasa](telegram.me/takkytsubasa) for showing interest in my work and encourage me to publish it.
+
+![alt text](https://raw.githubusercontent.com/mguellsegarra/diceroll_telegram_bot/master/screenshot.png)
 
 There are two bots running this software and available for everyone in Telegram:
 
