@@ -9,7 +9,14 @@ There are two bots running this software and available for everyone in Telegram:
 
 ## Usage
 
-Just clone this repo and edit `config.json` file in order to change the bot API key.
+Just clone this repo and edit `config.json` file in order to change the bot API key:
+
+```json
+{
+  "telegram_api_token": "<your_api_token_here>",
+  "default_locale": "en"
+}
+```
 
 Run it!
 
