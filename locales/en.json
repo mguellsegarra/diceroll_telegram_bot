@@ -7,8 +7,8 @@
     "Add this bot in your favourite telegram group and let's roll your dice with your friends:"
   ],
   "playCommands": [
-    "✔️ Type /rollA to roll the dice with emoji inline style",
-    "✔️ Type /rollB to roll the dice with two stickers style",
+    "✔️ Type /roll to roll the dice with emoji inline style",
+    "✔️ Type /huge to roll the dice with two stickers style",
     "✔️ Type /info to know more details about the author, source code, etc",
     "✔️ Type /help to show the available commands to all group members"
   ],

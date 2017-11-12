@@ -7,8 +7,8 @@
     "Afegeix-me a la conversa de Telegram o grup que prefereixis i a tirar els daus:"
   ],
   "playCommands": [
-    "✔️ Escriu /rollA per tirar els daus amb una línia i emojis",
-    "✔️ Escriu /rollB per tirar els daus amb stickers",
+    "✔️ Escriu /roll per tirar els daus amb una línia i emojis",
+    "✔️ Escriu /huge per tirar els daus amb stickers",
     "✔️ Escriu /info per obtenir més informació sobre l'autor, el codi font, etc.",
     "✔️ Escriu /help per mostrar les comandes disponibles"
   ],
