@@ -1,0 +1,12 @@
+{
+  "name": "barcelona13_telegram_bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {},
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.17.1",
+    "node-telegram-bot-api": "^0.26.0",
+    "random-js": "^1.0.8"
+  }
+}

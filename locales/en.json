@@ -1,0 +1,20 @@
+{
+  "start": [
+    "🎲 *DiceRoll* 🎲",
+    "Hey there! It's me, the Telegram bot for rolling the dice.",
+    "",
+    "👉 *How to play?*",
+    "Add this bot in your favourite telegram group and let's roll your dice with your friends:"
+  ],
+  "playCommands": [
+    "✔️ Type /rollA to roll the dice with emoji inline style",
+    "✔️ Type /rollB to roll the dice with two stickers style",
+    "✔️ Type /info to know more details about the author, source code, etc",
+    "✔️ Type /help to show the available commands to all group members"
+  ],
+  "info": [
+    "🎲 DiceRoll 🎲 is an easy Telegram bot implementation for rolling the dice. Developed by @mguellsegarra and available in https://github.com/mguellsegarra/diceroll_telegram_bot"
+  ],
+  "hasRolled": " has rolled the dice: ",
+  "and": "and"
+}

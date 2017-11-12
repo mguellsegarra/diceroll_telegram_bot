@@ -1,0 +1,20 @@
+{
+  "start": [
+    "🎲 *TiraDaus* 🎲",
+    "Hola! Soc el bot de telegram per tirar els daus en català!",
+    "",
+    "👉 *Com jugar?*",
+    "Afegeix-me a la conversa de Telegram o grup que prefereixis i a tirar els daus:"
+  ],
+  "playCommands": [
+    "✔️ Escriu /rollA per tirar els daus amb una línia i emojis",
+    "✔️ Escriu /rollB per tirar els daus amb stickers",
+    "✔️ Escriu /info per obtenir més informació sobre l'autor, el codi font, etc.",
+    "✔️ Escriu /help per mostrar les comandes disponibles"
+  ],
+  "info": [
+    "🎲 TiraDaus 🎲 és una implementació simple d'un bot de Telegram per a tirar els daus. Programat per @mguellsegarra i disponible a https://github.com/mguellsegarra/diceroll_telegram_bot"
+  ],
+  "hasRolled": " ha tirat els daus: ",
+  "and": "i"
+}
