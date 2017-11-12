@@ -6,8 +6,8 @@ An easy implementation of a Telegram bot for rolling the dice. Thanks to [@yagop
 
 There are two bots running this software and available for everyone in Telegram:
 
-- *[@DiceRollBot](telegram.me/RollDiceBot)* - English bot for rolling the dice
-- *[@TiraDausBot](telegram.me/TiraDausBot)* - Same bot for catalan speakers
+- *[@DiceRollBot](http://telegram.me/RollDiceBot)* - English bot for rolling the dice
+- *[@TiraDausBot](http://telegram.me/TiraDausBot)* - Same bot for catalan speakers
 
 ## Usage
 
