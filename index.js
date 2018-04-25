@@ -40,7 +40,7 @@ checkLocaleArgs();
 
 console.log(moment().format('HH:mm:ss DD-MM-YYYY') + " - Staring Tiradaus bot...");
 
-bot.onText(/\/start/, function onPhotoText(msg) {
+bot.onText(/^\/start/, function onPhotoText(msg) {
     sendMessage(msg.chat.id, currentLocale.start.join("\n"), MessageType.Markdown)
         .then(function () {
             return sendMessage(msg.chat.id, currentLocale.playCommands.join("\n"));
@@ -48,17 +48,17 @@ bot.onText(/\/start/, function onPhotoText(msg) {
         .catch(logError);
 });
 
-bot.onText(/\/help/, function onPhotoText(msg) {
+bot.onText(/^\/help/, function onPhotoText(msg) {
     sendMessage(msg.chat.id, currentLocale.playCommands.join("\n"))
         .catch(logError);
 });
 
-bot.onText(/\/info/, function onPhotoText(msg) {
+bot.onText(/^\/info/, function onPhotoText(msg) {
     sendMessage(msg.chat.id, currentLocale.info.join(""))
         .catch(logError);
 });
 
-bot.onText(/\/roll/, function onPhotoText(msg) {
+bot.onText(/^\/roll/, function onPhotoText(msg) {
     console.log(moment().format('HH:mm:ss DD-MM-YYYY') + " - /rollA command"+ " " + msg.from.id + " " + msg.from.username+ " " + msg.from.first_name);
 
     let dices = getRollDices();
@@ -68,7 +68,7 @@ bot.onText(/\/roll/, function onPhotoText(msg) {
         .catch(logError);
 });
 
-bot.onText(/\/huge/, function onPhotoText(msg) {
+bot.onText(/^\/huge/, function onPhotoText(msg) {
     console.log(moment().format('HH:mm:ss DD-MM-YYYY') + " - /rollB command"+ " " + msg.from.id + " " + msg.from.username+ " " + msg.from.first_name);
 
     let dices = getRollDices();
